@@ -1,5 +1,7 @@
 # admin-dashboard
 
+>> This is a simple admin dashboard template built with Vue.js and Vuetify.
+
 ## Project setup
 ```
 npm install
