@@ -31,9 +31,7 @@
                         class="ml-2"
                         inline
                         small
-                    ></v-badge>
-                        
-                    
+                    ></v-badge>                                          
                 </v-card-subtitle>
             </v-col>
     
