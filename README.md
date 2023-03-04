@@ -1,6 +1,6 @@
 # admin-dashboard
 
-> This is a simple admin dashboard template built with Vue.js and Vuetify.
+> This is a simple admin dashboard template built with Vue.js and Vuetify and DataTables.
 
 ## Login Page
 <img src="./readme/login.PNG" alt="Login Page" width="100%">
