@@ -146,8 +146,6 @@ export default {
       }
 
       store.dispatch('addFormField', field)
-
-      console.log(formFields.value)
     }
 
     const removeField = (id) => {

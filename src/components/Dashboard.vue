@@ -14,9 +14,9 @@
     />
   </v-row>
   <v-divider></v-divider>
-<!--Generated Form View-->
-<GeneratedForm />
-<v-divider></v-divider>
+  <!--Generated Form View-->
+  <GeneratedForm />
+  <v-divider></v-divider>
   <!--Dynamic form generator-->
   <FormGenerator />
 </template>
@@ -32,8 +32,8 @@ export default {
     Card,
     Header,
     FormGenerator,
-    GeneratedForm
-},
+    GeneratedForm,
+  },
   setup() {
     const cards = [
       {
@@ -69,7 +69,6 @@ export default {
         btnColor: 'purple-lighten-4',
       },
     ]
-
 
     return { cards }
   },

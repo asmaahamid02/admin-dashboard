@@ -6,15 +6,15 @@ const store = createStore({
     user: null,
     loginError: null,
     formSchema: {
-      fields:[
+      fields: [
         {
           id: 1,
           inputType: 'Text',
           inputLabel: '',
           inputPlaceholder: '',
           inputRequired: false,
-        }
-      ]
+        },
+      ],
     },
   },
   mutations: {
@@ -51,15 +51,15 @@ const store = createStore({
       this.state.formSchema.fields.push(field)
     },
     removeFormField({}, id) {
-      const field = this.state.formSchema.fields.find(f => f.id === id)
+      const field = this.state.formSchema.fields.find((f) => f.id === id)
       const index = this.state.formSchema.fields.indexOf(field)
       const newFields = this.state.formSchema.fields.splice(index, 1)
       const newSchema = {
-        fields: newFields
+        fields: newFields,
       }
 
       this.commit('SET_FORM_SCHEMA', newSchema)
-    },    
+    },
   },
   getters: {
     isLoggedIn: (state) => !!state.user,
