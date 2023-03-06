@@ -14,7 +14,13 @@
 ## Add New User Page
 <img src="./readme/add_form.png" alt="Add New User Page" width="100%">
 
+## Generate Form Page
+<img src="./readme/generator-form.png" alt="Generate Form Page" width="100%">
 <br />
+<img src="./readme/generated-form-validation.png" alt="Generated Form Validation" width="100%">
+<br />
+<img src="./readme/remove-btn.png" alt="Remove Button" width="100%">
+<br /><br />
 
 ## Project setup
 ```
@@ -35,6 +41,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
