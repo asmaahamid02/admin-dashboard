@@ -53,12 +53,7 @@ const store = createStore({
     removeFormField({}, id) {
       const field = this.state.formSchema.fields.find((f) => f.id === id)
       const index = this.state.formSchema.fields.indexOf(field)
-      const newFields = this.state.formSchema.fields.splice(index, 1)
-      const newSchema = {
-        fields: newFields,
-      }
-
-      this.commit('SET_FORM_SCHEMA', newSchema)
+      this.state.formSchema.fields.splice(index, 1)     
     },
   },
   getters: {
