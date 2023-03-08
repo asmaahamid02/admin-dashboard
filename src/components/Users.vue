@@ -4,7 +4,7 @@
     <Modal @addUser="addUser"/>
     <v-text-field
       v-model="search"
-      prepend-icon="mdi-magnify"
+      prepend-inner-icon="mdi-magnify"
       label="Search"
       single-line
       hide-details
