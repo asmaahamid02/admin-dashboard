@@ -1,8 +1,8 @@
 # admin-dashboard
 
 > This is a simple admin dashboard template built with Vue.js and Vuetify and DataTables.
->> It contains a dynamic form GENERATOR
->> It contains a multi-step form
+1. It contains a dynamic form GENERATOR
+2. It contains a multi-step form
 
 ## Login Page
 <img src="./readme/login.PNG" alt="Login Page" width="100%">
