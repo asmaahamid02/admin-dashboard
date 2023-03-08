@@ -2,6 +2,7 @@
 
 > This is a simple admin dashboard template built with Vue.js and Vuetify and DataTables.
 >> It contains a dynamic form GENERATOR
+>> It contains a multi-step form
 
 ## Login Page
 <img src="./readme/login.PNG" alt="Login Page" width="100%">
@@ -21,6 +22,16 @@
 <img src="./readme/generated-form-validation.png" alt="Generated Form Validation" width="100%">
 <br />
 <img src="./readme/remove-btn.png" alt="Remove Button" width="100%">
+<br />
+
+## Multi-Step Form
+<img src="./readme/step1.png" alt="Multi-Step Form Step 1" width="100%">
+<br />
+<img src="./readme/step1validation.png" alt="Multi-Step Form Step 1 Validation" width="100%">
+<br />
+<img src="./readme/step2.png" alt="Multi-Step Form Step 2" width="100%">
+<br />
+<img src="./readme/step3.png" alt="Multi-Step Form Step 3" width="100%">
 <br /><br />
 
 ## Project setup
