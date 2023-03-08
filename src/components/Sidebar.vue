@@ -59,6 +59,8 @@ export default {
       items: [
         { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
         { title: 'Users', icon: 'mdi-account', to: '/users' },
+        { title: 'Step Form', icon: 'mdi-pen', to: '/step-form' },
+    
       ],
     }
   },
