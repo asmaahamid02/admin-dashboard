@@ -1,12 +1,14 @@
 <template>
   <v-container>
     <v-card elevation="2" width="700" class="mx-auto">
+      <slot name="header">
       <v-card-title class="font-weight-bold text-uppercase">
       <slot name="title"></slot>
       </v-card-title>  
       <v-card-subtitle class="font-weight-medium">
         <slot name="subtitle"></slot>
       </v-card-subtitle>
+    </slot>
       <v-card-text>
    <slot name="content"></slot>
       </v-card-text>
