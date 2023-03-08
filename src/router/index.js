@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Users from '../components/Users.vue'
 import Dashboard from '../components/Dashboard.vue'
+import StepFormPage from '../views/StepFormPage.vue'
 import store from '../store'
 
 const routes = [
@@ -34,6 +35,14 @@ const routes = [
           requiresAuth: true,
         },
       },
+      {
+        path: 'step-form',
+        name: 'step-form-page',
+        component: StepFormPage,
+        meta: {
+          requiresAuth: true,
+        },
+      }
     ],
   },
 
